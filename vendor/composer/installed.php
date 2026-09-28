@@ -3,7 +3,7 @@
         'name' => 'agrobd/agrobd-app',
         'pretty_version' => 'dev-main',
         'version' => 'dev-main',
-        'reference' => 'a3a75b128d0b34f338e8637d3386c375106e2802',
+        'reference' => '2a0b27aabd42628de889e246276ae2af01a4ac85',
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -13,7 +13,7 @@
         'agrobd/agrobd-app' => array(
             'pretty_version' => 'dev-main',
             'version' => 'dev-main',
-            'reference' => 'a3a75b128d0b34f338e8637d3386c375106e2802',
+            'reference' => '2a0b27aabd42628de889e246276ae2af01a4ac85',
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),

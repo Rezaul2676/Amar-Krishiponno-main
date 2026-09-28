@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="96" viewBox="0 0 360 96">
+  <defs>
+    <linearGradient id="greenGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#57B84E" />
+      <stop offset="100%" stop-color="#C7E57E" />
+    </linearGradient>
+    <linearGradient id="textGlow" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="100%" stop-color="#F0F7E4" />
+    </linearGradient>
+    <filter id="blurShadow" x="-50%" y="-50%" width="200%" height="200%">
+      <feDropShadow dx="0" dy="10" stdDeviation="12" flood-color="rgba(0,0,0,0.18)" />
+    </filter>
+  </defs>
+  <rect x="0" y="0" width="360" height="96" rx="24" fill="rgba(255,255,255,0.08)" />
+  <g filter="url(#blurShadow)">
+    <circle cx="50" cy="48" r="30" fill="url(#greenGrad)" />
+  </g>
+  <path d="M40 37c0-8 8-14 18-14s18 6 18 14c0 10-18 26-18 26S40 51 40 37Z" fill="#FFFFFF" opacity="0.12" />
+  <path d="M40 40c0-6 6-10 14-10s14 4 14 10c0 8-14 20-14 20S40 48 40 40Z" fill="#FFFFFF" opacity="0.2" />
+  <path d="M46 24c6 0 14 9 12 18s-12 16-18 14c-6-2-8-12-4-18 3-5 7-14 10-14Z" fill="#FFFFFF" opacity="0.95" />
+  <path d="M54 18c6 0 14 6 14 14s-8 20-12 22S42 36 44 26C45 20 48 18 54 18Z" fill="url(#textGlow)" opacity="0.96" />
+  <text x="96" y="46" font-family="Poppins, sans-serif" font-size="30" font-weight="800" fill="#FFFFFF">Amar-<tspan font-weight="500" fill="#DCF3B7">Krishiponno</tspan></text>
+  <text x="96" y="72" font-family="Poppins, sans-serif" font-size="12" fill="#E7F6D9">বাংলাদেশের কৃষি পণ্যের অনলাইন বাজার</text>
+  <rect x="94" y="76" width="210" height="2" rx="1" fill="rgba(255,255,255,0.28)" />
+</svg>
